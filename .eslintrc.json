@@ -1,0 +1,15 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "error",
+        
+        "react/prop-types": "off",    // Disables the rule for prop types
+        "no-unused-vars": "warn",     // Warns for unused variables
+        "semi": ["warn", "always"]   // Warns if semicolons are missing
+    }
+  }

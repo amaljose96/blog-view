@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const SidebarContainer = styled.div<{
   deviceType: DeviceType;
 }>`
+  min-width: 50px;
   width: 50px;
   box-sizing: border-box;
   height: 100vh;
@@ -15,13 +16,8 @@ export const SidebarContainer = styled.div<{
 
   &:hover {
     width: 220px;
+    min-width: 220px;
   }
-  ${(props) =>
-    props.deviceType === DeviceType.Mobile &&
-    `
-    width:15px;
-    
-    `}
 `;
 
 export const SidebarHeader = styled.div`

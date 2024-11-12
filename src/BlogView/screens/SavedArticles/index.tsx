@@ -1,36 +1,33 @@
 import { Container } from '../../components/Container';
 import { Typography } from 'BlogView/pearls/Typography';
-import { Section } from './styles';
+
 import { useTranslation } from 'react-i18next';
 import { DataManager } from 'BlogView/DataManager';
 import { ArticleSummaries } from 'BlogView/components/ArticleSummaries';
 import { useState } from 'react';
+import { Section } from '../Home/styles';
 
-export function Home() {
+export function SavedArticles() {
   const { t } = useTranslation();
   const dataManager = new DataManager();
   const [pageNumber, setPageNumber] = useState(0);
-  const latestArticles = dataManager.getLatestArticleSummaries();
+  const latestArticles = dataManager.getSavedArticleSummaries();
+  console.log(latestArticles);
   return (
     <Container>
       <Section>
-        <Typography variant="h1">{t("Welcome to Amal's blog")}</Typography>
-        <Typography variant="body">
-          {t(
-            'Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!',
-          )}
-        </Typography>
-      </Section>
-      <Section>
-        <Typography variant="h1">{t('Recent Articles')}</Typography>
+        <Typography variant="h1">{t('Saved Articles')}</Typography>
         <ArticleSummaries
           articleSummaries={latestArticles[pageNumber]}
           pagination={{
-            pageNumber,
             setPageNumber,
+            pageNumber,
             numberOfPages: Object.keys(latestArticles).length,
           }}
         />
+        {latestArticles[0].length === 0 && (
+          <Typography variant="body">{t('No saved articles')}</Typography>
+        )}
       </Section>
     </Container>
   );

@@ -1,17 +1,20 @@
 {
-    "lastUpdated":1731380190389,
+    "lastUpdatedAt":1731380190389,
     "articles":[
         {
             "id": "0001",
-            "translatedTitles":{
+            "title":{
                 "en":"My First Article"
             },
             "createdAt":1731380190389,
             "lastUpdatedAt":1731380190389,
+            "tags":["AI/ML","Web","Llama"],
+            "imageUrl":"",
+            "summary":{"en":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tortor nunc, ornare sit amet quam eget, rutrum imperdiet massa."},
             "content": [
                 {
                     "type":"h1",
-                    "text":[
+                    "content":[
                         {
                             "type":"text",
                             "content": {
@@ -22,7 +25,7 @@
                 },
                 {
                     "type":"body",
-                    "text":[
+                    "content":[
                         {
                             "type":"text",
                             "content":{

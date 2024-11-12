@@ -10,13 +10,13 @@ export const sidebarOptions = [
   {
     key: 'recent',
     text: 'Recent Articles',
-    route: '/recent',
+    route: '/recently-opened-articles',
     icon: 'recent' as IconName,
   },
   {
     key: 'saved',
     text: 'Saved Articles',
-    route: '/saved',
+    route: '/saved-articles',
     icon: 'saved' as IconName,
   },
 ];

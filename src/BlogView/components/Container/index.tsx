@@ -4,7 +4,7 @@
  */
 
 import { ReactNode } from 'react';
-import { DeviceType, useDeviceType } from '../../hooks/useDeviceType';
+import { useDeviceType } from '../../hooks/useDeviceType';
 
 import { InnerContainer, AppContent, OuterContainer, Content } from './styles';
 import { Sidebar } from '../Sidebar';
@@ -16,8 +16,6 @@ interface IContainerProps {
 
 export function Container({ children }: IContainerProps) {
   const deviceType = useDeviceType();
-  const containerWidth =
-    deviceType === DeviceType.Mobile ? 'calc(100% - 50px)' : '960px';
 
   return (
     <OuterContainer>
@@ -25,7 +23,7 @@ export function Container({ children }: IContainerProps) {
       <Content>
         <Header />
         <AppContent deviceType={deviceType}>
-          <InnerContainer width={containerWidth}>{children}</InnerContainer>
+          <InnerContainer deviceType={deviceType}>{children}</InnerContainer>
         </AppContent>
       </Content>
     </OuterContainer>

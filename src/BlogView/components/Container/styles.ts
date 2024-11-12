@@ -20,11 +20,13 @@ export const AppContent = styled.div<{ deviceType: DeviceType }>`
   display: flex;
   flex-direction: column;
   align-items: center;
-
   border-radius: ${(props) => props.theme.borderRadius}px 0px 0px 0px;
 `;
-export const InnerContainer = styled.div<{ width: string }>`
-  width: ${(props) => props.width};
-  min-width: ${(props) => props.width};
-  padding: 20px;
+export const InnerContainer = styled.div<{ deviceType: DeviceType }>`
+  width: ${(props) =>
+    props.deviceType === DeviceType.Mobile ? 'calc(100% - 100px)' : '960px'};
+  min-width: ${(props) =>
+    props.deviceType === DeviceType.Mobile ? 'calc(100% - 100px)' : '960px'};
+  padding: ${(props) =>
+    props.deviceType === DeviceType.Desktop ? '20px' : '5px'};
 `;

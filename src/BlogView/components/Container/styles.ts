@@ -8,6 +8,7 @@ export const OuterContainer = styled.div`
   width: 100vw;
   background-color: ${(props) => props.theme.menuBackgroundColor};
   display: flex;
+  overflow: hidden;
 `;
 export const Content = styled.div`
   flex-grow: 1;

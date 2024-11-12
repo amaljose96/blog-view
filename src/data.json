@@ -1,0 +1,37 @@
+{
+    "lastUpdated":1731380190389,
+    "articles":[
+        {
+            "id": "0001",
+            "translatedTitles":{
+                "en":"My First Article"
+            },
+            "createdAt":1731380190389,
+            "lastUpdatedAt":1731380190389,
+            "content": [
+                {
+                    "type":"h1",
+                    "text":[
+                        {
+                            "type":"text",
+                            "content": {
+                                "en":"My First Article"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type":"body",
+                    "text":[
+                        {
+                            "type":"text",
+                            "content":{
+                                "en":"My First Article"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

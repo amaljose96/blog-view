@@ -1,7 +1,7 @@
 export default {
   locales: ['en'],
   output: 'src/locales/$LOCALE.json', // Customize the output directory as needed
-  input: ['src/**/*.{tsx}'],
+  input: ['src/**/*.{tsx,ts}'],
   defaultNamespace: 'translation',
   createOldCatalogs: false, // Don't create old catalog files
   keySeparator: false, // Allow keys with dots to be parsed

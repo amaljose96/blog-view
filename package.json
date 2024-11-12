@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "extract-translations": "rm -rf src/locales; i18next src/**/**/*.tsx; pip3 install ollama;python3 scripts/fillTranslations.py"
+    "extract-translations": "rm -rf src/locales; i18next src/**/**/*.tsx src/**/**/*.ts; pip3 install ollama;python3 scripts/fillTranslations.py"
   },
   "eslintConfig": {
     "extends": [

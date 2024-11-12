@@ -13,7 +13,7 @@ export function RecentlyOpenedArticles() {
   return (
     <Container>
       <Section>
-        <Typography variant="h1">{t('Recently Opened Articles')}</Typography>
+        <Typography variant="h1">{t('Recent Articles')}</Typography>
         <ArticleSummaries articleSummaries={latestArticles} />
       </Section>
     </Container>

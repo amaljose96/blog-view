@@ -12,12 +12,21 @@ import { useDeviceType } from 'BlogView/hooks/useDeviceType';
 import { sidebarOptions } from './config';
 import { useNavigate } from 'react-router';
 import { DataManager } from 'BlogView/DataManager';
+import { useTranslation } from 'react-i18next';
 
 export function Sidebar() {
   const { theme } = useTheme();
+  const { t } = useTranslation();
   const deviceType = useDeviceType();
   const navigate = useNavigate();
   const dataManager = new DataManager();
+
+  const translatedTexts: Record<string, string> = {
+    homepage: t('Home'),
+    recent: t('Recent Articles'),
+    saved: t('Saved Articles'),
+  };
+
   const hasRecentlyOpened =
     dataManager.getRecentlyOpenedArticleSummaries().length > 0;
 
@@ -47,7 +56,7 @@ export function Sidebar() {
                   size={'20px'}
                 />
 
-                {sidebarOption.text}
+                {translatedTexts[sidebarOption.key]}
               </SidebarOptionContainer>
             );
           })}

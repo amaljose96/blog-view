@@ -1,4 +1,4 @@
-type TranslatedString = Record<string, string>;
+export type TranslatedString = Record<string, string>;
 
 interface TextElement {
   type: string;

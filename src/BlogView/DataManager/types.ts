@@ -21,6 +21,7 @@ export interface Article {
   content: ArticleElement[];
 }
 export interface ArticleSummary {
+  id: string;
   title: TranslatedString;
   imageUrl: string;
   summary: TranslatedString;

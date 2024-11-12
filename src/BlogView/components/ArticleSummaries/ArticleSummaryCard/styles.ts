@@ -14,7 +14,6 @@ export const SummaryImage = styled.img`
     ${(props) => props.theme.borderRadius}px;
 `;
 export const CardContent = styled.div`
-  padding-bottom: 20px;
   padding-left: 20px;
   height: 165px;
   overflow: scroll;

@@ -8,6 +8,7 @@ import {
   CardContent,
   SummaryImage,
 } from './styles';
+import { useNavigate } from 'react-router';
 
 interface IArticleSummaryCardProps {
   articleSummary: ArticleSummary;
@@ -18,8 +19,13 @@ export function ArticleSummaryCard({
 }: IArticleSummaryCardProps) {
   const { i18n } = useTranslation();
   const locale = i18n.language;
+  const navigate = useNavigate();
   return (
-    <ArticleSummaryCardContainer>
+    <ArticleSummaryCardContainer
+      onClick={() => {
+        navigate('/article/' + articleSummary.id);
+      }}
+    >
       <SummaryImage src={articleSummary.imageUrl} />
       <CardContent>
         <Typography variant="h2">{articleSummary.title[locale]}</Typography>

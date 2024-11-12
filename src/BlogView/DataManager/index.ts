@@ -13,6 +13,7 @@ export class DataManager {
   }
   private static getArticleSummary(article: Article): ArticleSummary {
     return {
+      id: article.id,
       title: article.title,
       imageUrl: article.imageUrl,
       summary: article.summary,
@@ -89,18 +90,21 @@ export class DataManager {
   private static getRecentlyOpenedArticleIds() {
     const recentlyOpenedArticleIds =
       localStorage.getItem('recentlyOpenedArticles')?.split('|') || [];
+    console.log(recentlyOpenedArticleIds);
     return recentlyOpenedArticleIds;
   }
 
   private getRecentlyOpenedArticles() {
-    const savedArticleIds: string[] = DataManager.getRecentlyOpenedArticleIds();
+    const recentlyOpenedArticleIds: string[] =
+      DataManager.getRecentlyOpenedArticleIds();
     return this.articles.filter((article) =>
-      savedArticleIds.includes(article.id),
+      recentlyOpenedArticleIds.includes(article.id),
     );
   }
 
   getRecentlyOpenedArticleSummaries() {
     const recentlyOpenedArticles = this.getRecentlyOpenedArticles();
+    console.log('Recent', recentlyOpenedArticles);
     return recentlyOpenedArticles.map(DataManager.getArticleSummary);
   }
 
@@ -114,7 +118,7 @@ export class DataManager {
       ...currentRecentlyOpenedArticleIds,
     ].slice(0, RECENT_ARTICLES_LIMIT);
     localStorage.setItem(
-      'recentlyOpenedArticleIds',
+      'recentlyOpenedArticles',
       newRecentlyOpenedArticleIds.join('|'),
     );
 

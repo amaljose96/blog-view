@@ -1,8 +1,12 @@
 {
-  "Amal's Blog": "अमाल का ब्लॉग",
-  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "\"यहां आप मेरी सोच, विचारों और अनुभवों का एक संग्रह पाएंगे। यह तकनीकी अंतर्दृष्टि, जीवन-दर्शन और सबके बीच की सभी चीजों का मिश्रण है। देखिए-मुझे उम्मीद है कि आपको कुछ होगा जो आपको आकर्षित करेगा!\"",
-  "No saved articles": "नहीं सेवा किए गए लेख",
+  "Amal's Blog": "अमल की ब्लॉग",
+  "Current Language": "भास्तित लेख",
+  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "येाँ, यहाँ आपको मेरी सोचों, विचारों और अनुभवों का एक संग्रह है। यह टेक्नोलॉजी के अंश, जीवन की पुनर्मूल्यांकन और बीच में कुछ भी शामिल है। देखिए—मुझे उम्मीद है कि आपको ऐसा कुछ मिलेगा जिसे आपको आकर्षित करता है!",
+  "Home": "निवास",
+  "No saved articles": "कोई संचित लेख नहीं",
   "Recent Articles": "हाल ही में लेख",
-  "Saved Articles": "संचालित लेख",
-  "Welcome to Amal's blog": "नमस्कार अमल की ब्लॉग पर स्वागत है।"
+  "Saved Articles": "सेवित लेख",
+  "Settings": "निर्देश",
+  "Theme": "विषय (Vishay)",
+  "Welcome to Amal's blog": "नमस्ते अमाल की ब्लॉग पर स्वागत है"
 }

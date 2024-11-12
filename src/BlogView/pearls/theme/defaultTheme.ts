@@ -2,17 +2,16 @@ import { Theme } from './types';
 
 export const defaultTheme: Theme = {
   borderRadius: 12,
-  useCircularButtons: false,
 
-  textColor: '#fff',
-  menuBackgroundColor: '#222',
-  menuHoverBackgroundColor: '#333',
-  containerBackgroundColor: '#333',
-  secondaryTextColor: '#ddd',
+  textColor: '#ffffff',
+  menuBackgroundColor: '#222222',
+  menuHoverBackgroundColor: '#333333',
+  containerBackgroundColor: '#333333',
+  secondaryTextColor: '#dddddd',
 
   reader: {
-    textColor: '#000',
-    backgroundColor: '#fff',
+    textColor: '#000000',
+    backgroundColor: '#ffffff',
     codeTheme: 'dark',
     font: 'serif',
   },

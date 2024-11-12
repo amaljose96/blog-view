@@ -21,6 +21,7 @@ export const AppContent = styled.div<{ deviceType: DeviceType }>`
   flex-direction: column;
   align-items: center;
   border-radius: ${(props) => props.theme.borderRadius}px 0px 0px 0px;
+  overflow-y: scroll;
 `;
 export const InnerContainer = styled.div<{ deviceType: DeviceType }>`
   width: ${(props) =>

@@ -1,8 +1,12 @@
 {
   "Amal's Blog": "Blogu e Amalit",
-  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "Gjoja, du të gjeti një koleksion e artikujve kuashënde që unë jemë për të kuptuar gjithë mirat, ideat dhe shfaqje. Èshtë një mëzgimi i saiti rrezepte, refleksione të jetës dhe çdo që ndodhet midis. Njofto ti një pyetje në hapsirë—u esperim që faleminderit!”",
-  "No saved articles": "\"Në shqiptimi e mirumbruar\"\n\n\"Artikujt e ruajtura nuk janë të drejta\"",
-  "Recent Articles": "Artikale e Ri\n\n( Albanian: Artikale e Ri )",
-  "Saved Articles": "Artikujt që u ndanë",
-  "Welcome to Amal's blog": "Burrët i parë me një weblog në emrin tuj.\"\n\n(Not available in native Albanian script, so used Latin alphabet)\n\n \"Shpresa mbi blogun tim\"\n\nOr, using the more common and idiomatic expression:\n\n\"Kisha shpresa mbi kështjera ime\"\n\nHowever, a more informal way of welcoming could be:\n\n \"Duket mirë\""
+  "Current Language": "Gjuha e sotme \n\n (For websites, you can write it as \"Gjuha e sotme\" in native Albanian script)\n\nor\n\nGjuha e zëme",
+  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "Gjiati, këtu jeni i shqyuaruar me një koleksion e artikujve ku je dashuria me pike, ideat dhe pengjetjet e mësimit. È ndërthembje e të dhënave teknike, reflektimet live, dhe gjithçka midis. I kuptu i guruar, unë dërgojë që ndonë në një çdo njësi!\"",
+  "Home": "Bajtë",
+  "No saved articles": "Nuk ka krijuar artikujt e ruajtur",
+  "Recent Articles": "Artikujt e koheshur",
+  "Saved Articles": "Artikujt të shpërbulluar",
+  "Settings": "Regjistrimet",
+  "Theme": "Kampioni",
+  "Welcome to Amal's blog": "Bërshku në blogun e te Ti Amalit"
 }

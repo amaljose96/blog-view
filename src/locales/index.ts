@@ -123,3 +123,249 @@ export const resources = {
   ms: { translation: ms },
   am: { translation: am },
 };
+export const languages = [
+  {
+    label: 'English',
+    value: 'en',
+  },
+  {
+    label: 'Hindi',
+    value: 'hi',
+  },
+  {
+    label: 'Spanish',
+    value: 'es',
+  },
+  {
+    label: 'Afrikaans',
+    value: 'af',
+  },
+  {
+    label: 'Albanian',
+    value: 'sq',
+  },
+  {
+    label: 'Arabic',
+    value: 'ar',
+  },
+  {
+    label: 'Armenian',
+    value: 'hy',
+  },
+  {
+    label: 'Bengali',
+    value: 'bn',
+  },
+  {
+    label: 'Bosnian',
+    value: 'bs',
+  },
+  {
+    label: 'Catalan',
+    value: 'ca',
+  },
+  {
+    label: 'Croatian',
+    value: 'hr',
+  },
+  {
+    label: 'Czech',
+    value: 'cs',
+  },
+  {
+    label: 'Danish',
+    value: 'da',
+  },
+  {
+    label: 'Dutch',
+    value: 'nl',
+  },
+  {
+    label: 'Esperanto',
+    value: 'eo',
+  },
+  {
+    label: 'Estonian',
+    value: 'et',
+  },
+  {
+    label: 'Filipino',
+    value: 'tl',
+  },
+  {
+    label: 'Finnish',
+    value: 'fi',
+  },
+  {
+    label: 'French',
+    value: 'fr',
+  },
+  {
+    label: 'German',
+    value: 'de',
+  },
+  {
+    label: 'Greek',
+    value: 'el',
+  },
+  {
+    label: 'Gujarati',
+    value: 'gu',
+  },
+  {
+    label: 'Hungarian',
+    value: 'hu',
+  },
+  {
+    label: 'Icelandic',
+    value: 'is',
+  },
+  {
+    label: 'Indonesian',
+    value: 'id',
+  },
+  {
+    label: 'Italian',
+    value: 'it',
+  },
+  {
+    label: 'Japanese',
+    value: 'ja',
+  },
+  {
+    label: 'Javanese',
+    value: 'jw',
+  },
+  {
+    label: 'Kannada',
+    value: 'kn',
+  },
+  {
+    label: 'Korean',
+    value: 'ko',
+  },
+  {
+    label: 'Latin',
+    value: 'la',
+  },
+  {
+    label: 'Latvian',
+    value: 'lv',
+  },
+  {
+    label: 'Macedonian',
+    value: 'mk',
+  },
+  {
+    label: 'Malayalam',
+    value: 'ml',
+  },
+  {
+    label: 'Marathi',
+    value: 'mr',
+  },
+  {
+    label: 'Nepali',
+    value: 'ne',
+  },
+  {
+    label: 'Polish',
+    value: 'pl',
+  },
+  {
+    label: 'Portuguese',
+    value: 'pt',
+  },
+  {
+    label: 'Punjabi',
+    value: 'pa',
+  },
+  {
+    label: 'Romanian',
+    value: 'ro',
+  },
+  {
+    label: 'Russian',
+    value: 'ru',
+  },
+  {
+    label: 'Serbian',
+    value: 'sr',
+  },
+  {
+    label: 'Sinhala',
+    value: 'si',
+  },
+  {
+    label: 'Sundanese',
+    value: 'su',
+  },
+  {
+    label: 'Swahili',
+    value: 'sw',
+  },
+  {
+    label: 'Swedish',
+    value: 'sv',
+  },
+  {
+    label: 'Tamil',
+    value: 'ta',
+  },
+  {
+    label: 'Telugu',
+    value: 'te',
+  },
+  {
+    label: 'Thai',
+    value: 'th',
+  },
+  {
+    label: 'Turkish',
+    value: 'tr',
+  },
+  {
+    label: 'Ukrainian',
+    value: 'uk',
+  },
+  {
+    label: 'Urdu',
+    value: 'ur',
+  },
+  {
+    label: 'Vietnamese',
+    value: 'vi',
+  },
+  {
+    label: 'Welsh',
+    value: 'cy',
+  },
+  {
+    label: 'Xhosa',
+    value: 'xh',
+  },
+  {
+    label: 'Yiddish',
+    value: 'yi',
+  },
+  {
+    label: 'Zulu',
+    value: 'zu',
+  },
+  {
+    label: 'Chinese',
+    value: 'zh',
+  },
+  {
+    label: 'Hebrew',
+    value: 'he',
+  },
+  {
+    label: 'Malay',
+    value: 'ms',
+  },
+  {
+    label: 'Amharic',
+    value: 'am',
+  },
+];

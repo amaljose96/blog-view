@@ -83,10 +83,23 @@ with open(source_file_path, 'r', encoding='utf-8') as f:
 # Function to call Ollama API for translation
 def translate_text(text, target_lang):
     try:
-        prompt = f"My name is Amal. Imagine you're an expert translator for {languageMaps[target_lang]}. You only reply with the translated text. Give the most appropriate and only one translation in case there are multiple options. Use native script while translating and don't use English if a native script exists. No notes. Do not add anything extra. This is for a website. Translate the following text to your language. \n \"{text}\""
+        prompt = f"""
+You are an expert translator for {languageMaps[target_lang]}.
+
+Translate the following text to {languageMaps[target_lang]}. 
+- Use the most accurate and contextually appropriate translation.
+- If there are multiple options, choose the most commonly used one.
+- Always use the native script of the target language, avoiding any English characters unless absolutely necessary.
+- Provide the translation only; do not add extra information, notes, or explanations.
+- The text you are translating is intended for a website, so make sure it sounds natural in that context.
+
+Translate this text: 
+
+"{text}"""
         response = ollama.generate(model='llama3.2', prompt=prompt)["response"]
+        formatted_response = response.split("\n")[0]
         
-        return response
+        return formatted_response
     except Exception as e:
         print(f"Error translating text: {text}, {e}")
         return None
@@ -107,10 +120,12 @@ def generate_translations():
         for key, _ in source_translations.items():
             
             progress=progress+1
-            translated_text = translate_text(key, target_locale)
+            
 
             if(target_locale == "en"):
               translated_text = key    
+            else:
+              translated_text = translate_text(key, target_locale)
 
             if translated_text:
                 translated_file[key] = translated_text
@@ -133,6 +148,17 @@ def generate_locale_index():
     for target_locale in target_locales:
         content+=f"  {target_locale}: {{ translation: {target_locale} }},\n"
     content+="};\n"
+    content+="export const languages = [\n"
+    for target_locale in target_locales:
+        content+=f"""  {{
+    label: '{languageMaps[target_locale]}',
+    value: '{target_locale}',
+  }},
+"""
+    content+="];\n"
+
+
+
     target_file_path = os.path.join(os.getcwd(), f'src/locales/index.ts')
 
     with open(target_file_path, 'w', encoding='utf-8') as f:

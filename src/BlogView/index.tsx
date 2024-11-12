@@ -5,6 +5,7 @@ import { Home } from './screens/Home';
 import { RecentlyOpenedArticles } from './screens/RecentlyOpenedArticles';
 import { SavedArticles } from './screens/SavedArticles';
 import { ArticleView } from './screens/ArticleView';
+import { Settings } from './screens/Settings';
 
 export function BlogView() {
   return (
@@ -16,6 +17,7 @@ export function BlogView() {
             element={<RecentlyOpenedArticles />}
           />
           <Route path="/saved-articles" element={<SavedArticles />} />
+          <Route path="/settings" element={<Settings />} />
           <Route path="/article/:id" element={<ArticleView />} />
           <Route path="/" element={<Home />} />
         </Routes>

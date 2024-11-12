@@ -10,7 +10,12 @@ export const SidebarContainer = styled.div<{
   height: 100vh;
 
   overflow: hidden;
-  background-color: ${(props) => props.theme.menuBackgroundColor};
+  background: linear-gradient(
+    to left,
+    ${(props) => props.theme.menuBackgroundColor},
+    ${(props) => props.theme.menuBackgroundColor}22
+  );
+
   z-index: 100;
   transition: all 0.3s;
 
@@ -32,6 +37,14 @@ export const SidebarHeader = styled.div`
 export const SidebarOptions = styled.div`
   padding: 5px;
   padding-top: 30px;
+  padding-bottom: 30px;
+  height: calc(100vh - 50px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+export const SidebarOptionsSet = styled.div`
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -45,7 +58,7 @@ export const SidebarOptionContainer = styled.div`
   box-sizing: border-box;
   color: ${(props) => props.theme.textColor};
   font-size: 16px;
-  background-color: ${(props) => props.theme.menuHoverBackgroundColor}8;
+  background-color: ${(props) => props.theme.menuHoverBackgroundColor}88;
   border-radius: ${(props) => props.theme.borderRadius}px;
   &:hover {
     cursor: pointer;

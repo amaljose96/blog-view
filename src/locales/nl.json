@@ -1,8 +1,12 @@
 {
-  "Amal's Blog": "Amals Blog",
-  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "Hier vind je een collectie artikelen waar ik mijn gedachten, ideeën en ervaringen del. Het is een mengsel van technisch inzicht, levensreflexies en alles ertussen. Neem de tijd om rond te kijken—I hoop dat je iets vindt wat bij jou past!",
+  "Amal's Blog": "\"Amals Blog\"",
+  "Current Language": "\"Huidige Taal\"",
+  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "Hier vind je een collectie artikelen waar ik mijn gedachten, ideeën en ervaringen deel. Het is een mengsel van technische kennis, levensbezoeken en alles ertussen. Neem een keek om te zien of er iets zit dat bij jou past!\"",
+  "Home": "Huis",
   "No saved articles": "Geen opgeslagen artikelen",
-  "Recent Articles": "Nieuwste Artikelen",
-  "Saved Articles": "Behouden Artikelen",
-  "Welcome to Amal's blog": "Welkom op Amals blog"
+  "Recent Articles": "Huidige Artikelen",
+  "Saved Articles": "Begeleide Artikelen",
+  "Settings": "Instellingen",
+  "Theme": " Thema",
+  "Welcome to Amal's blog": "Welkom bij Amals blog"
 }

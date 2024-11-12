@@ -1,8 +1,12 @@
 {
-  "Amal's Blog": "ಅಮಾಲ್ ಬ್ಲಾಗ್",
-  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "ಇಲ್ಲಿ, ನಾನು ತನ್ನ ಚರ್ಚೆಗಳು, ಆಲೋಚನೆಗಳು ಮತ್ತು ಅನುಭವಗಳನ್ನು ಪಂಚಿಸುತ್ತೇನೆ. ಇದು ಟೆಕ್ ಈನ್‌ಸೈಟ್ಸ್, ಜೀವನ-ಪುನರ್ಮಿಲಿತಗಳು ಮತ್ತು ಇದುವಿನ ಅಂತರವನ್ನು ಒಳಗೊಂಡಿದೆ. ಹೋಗಿ ಪಾಠವನ್ನು ನೋಡಿ - ಉತ್ಸಾಹಕ್ಕೆ ಖಚಿತ ಮನ್ನಣೆ ಬೀರುವಂತೆ!",
-  "No saved articles": "ಸಂಗ್ರಹಿತ ವಾರ್ತಾಪತ್ರಿಕೆಗಳು",
+  "Amal's Blog": "ಅಮಾಲ್ ಬ್ಲಗ್",
+  "Current Language": "ಪ್ರಸ್ತುತ ಭಾಷೆ",
+  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "ಇಲ್ಲಿ, ನಾನು ತಮಾರಿಗೆ ಹಂಚಿಕೊಳ್ಳುವ ಸಾಧನೆಯಾದುದರಲ್ಲಿ ನಾನು ತಮಗೆ ಹಂಚಿಕೊಳ್ಳುವ ಸಮಾಧಾನಗಳ ಸಂಗ್ರಹವನ್ನು ಪಡೆದುಕೊಳ್ಳಬಹುದು. ಇದು ಟೆಕ್ ಅಂಶಗಳು, ಜೀವನಪರಿಣಾಮಗಳು ಮತ್ತು ಏಕೆಂದರೆಯಲ್ಲಿನ ಎಲ್ಲವೂ ಸೇರಿದಂತೆ. ಪ್ರತೀಕಾದೃಷ್ಟಗಳು-ಹಾಕಿ ನೋಡಿ-ನಾನು ನಮ್ಮಲ್ಲಿ ಯಾವುದೇ ಒಂದರು.",
+  "Home": "ಹೊಮ್",
+  "No saved articles": "ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ಸಂಗ್ರಹಿತ ವಾರ್ತೆಗಳು",
   "Recent Articles": "ಸುದ್ದಿ ಪತ್ರಿಕೆಗಳು",
-  "Saved Articles": "ರೆಫರ್ನ್ಸ ವಾತಚಿತ್ರ",
-  "Welcome to Amal's blog": "ವೈಭವ ಅಮಾಲ್‌ನ ಬ್ಲಾಗ್‌ಕೆ ಸುವಿಧೆ!"
+  "Saved Articles": "ರಿಫ್ರೆನ್ಸ್ ಪೋಸ್ಟ್‌ಗಳು",
+  "Settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+  "Theme": "ವಾಕ್ಯ ನಿರೂಪಣೆ",
+  "Welcome to Amal's blog": "ಆಮಲ್ ಅವರ ಬ್ಲೋಗ್‌ನ ಸುವ್ಯವಸ್ಥೆ."
 }

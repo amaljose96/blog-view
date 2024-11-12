@@ -1,8 +1,12 @@
 {
-  "Amal's Blog": "Amala bloga",
-  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "Ja, še jūs atvainiet sēriju rakstiem, kurā es muza savas gaidiņas, ideju un pareizgādas pierinās avotus. Tā ir konģlaiņa tehnoloģiskās zinīkņu, dzīvības pētījumi un kad galamieskatās. Atvainieties pieejas—es lieks, ka es atradsietvienotums ar vienu!\"",
-  "No saved articles": "\"Nē savu pieejami raksti\"\n\nor\n\n\"Šie raksti neatvietas saglābti\"",
+  "Amal's Blog": "\"Amala vārdos\"\n\n(Using the Latvian Latin alphabet)",
+  "Current Language": "Atvērtā valoda",
+  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "\"Jā, tie vietā atvainoiet sēriju ar artikliem, kur še jau runīti manas sapieras, idejas unēnoji skatos. Tā ir mīkstais smagums tehnoloģijas izmers, dzīvības refleksijas un visās starpniecības vidu. Izveidojies uz pāris—mani espero, ka atgadsiet vienainai, ko es še runaot.\"\n\n\"Sērija tie vietā ir mīkstais smagums tehnoloģijas izmers, dzīvības refleksijas un visās starpniecības vidu. Izveidojies uz pāris—mani espero, ka atgadsiet vienainai, ko es še runaot.\"",
+  "Home": "Casa",
+  "No saved articles": "Neatibāta saglabātai nav",
   "Recent Articles": "Jaunākie raksti",
-  "Saved Articles": "Sējumi",
-  "Welcome to Amal's blog": "Vienveidēts: Sveiciņas, šeit ir Amala bloga!\n\n( Latvian)"
+  "Saved Articles": "Sāņētās rakstītās atsauknie",
+  "Settings": "Regļu iestatījumi",
+  "Theme": "Tēma",
+  "Welcome to Amal's blog": "Želkams pie Amala vārdā"
 }

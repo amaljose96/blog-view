@@ -4,6 +4,7 @@ import {
   SidebarHeader,
   SidebarOptionContainer,
   SidebarOptions,
+  SidebarOptionsSet,
 } from './styles';
 
 import { Icon } from 'BlogView/pearls/Icon';
@@ -36,30 +37,42 @@ export function Sidebar() {
         <Icon name="appIcon" color={theme.textColor} size="25px" />
       </SidebarHeader>
       <SidebarOptions>
-        {sidebarOptions
-          .filter((sidebarOption) => {
-            if (sidebarOption.key === 'recent') {
-              return hasRecentlyOpened;
-            }
-            return true;
-          })
-          .map((sidebarOption) => {
-            return (
-              <SidebarOptionContainer
-                onClick={() => {
-                  navigate(sidebarOption.route);
-                }}
-              >
-                <Icon
-                  name={sidebarOption.icon}
-                  color={theme.textColor}
-                  size={'20px'}
-                />
+        <SidebarOptionsSet>
+          {sidebarOptions
+            .filter((sidebarOption) => {
+              if (sidebarOption.key === 'recent') {
+                return hasRecentlyOpened;
+              }
+              return true;
+            })
+            .map((sidebarOption) => {
+              return (
+                <SidebarOptionContainer
+                  onClick={() => {
+                    navigate(sidebarOption.route);
+                  }}
+                >
+                  <Icon
+                    name={sidebarOption.icon}
+                    color={theme.textColor}
+                    size={'20px'}
+                  />
 
-                {translatedTexts[sidebarOption.key]}
-              </SidebarOptionContainer>
-            );
-          })}
+                  {translatedTexts[sidebarOption.key]}
+                </SidebarOptionContainer>
+              );
+            })}
+        </SidebarOptionsSet>
+        <SidebarOptionsSet>
+          <SidebarOptionContainer
+            onClick={() => {
+              navigate('/settings');
+            }}
+          >
+            <Icon name={'settings'} color={theme.textColor} size={'20px'} />
+            {t('Settings')}
+          </SidebarOptionContainer>
+        </SidebarOptionsSet>
       </SidebarOptions>
     </SidebarContainer>
   );

@@ -1,8 +1,12 @@
 {
-  "Amal's Blog": "Amal's Blog",
-  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "\"Aquí encontrarás una colección de artículos en los que comparto mis pensamientos, ideas y experiencias. Se trata de un mélange de consejos tecnológicos, reflexiones de vida, y todo lo demás. Observa la zona —espero que encuentres algo que te resuene!\"",
+  "Amal's Blog": "Bloque de Amal",
+  "Current Language": "Lengua Actual",
+  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "\"Aquí encontrarás una colección de artículos donde comparto mis pensamientos, ideas y experiencias. Es un hilo de reflexiones sobre la vida y todo lo que enlaza con el mundo digital.\"",
+  "Home": "Casa",
   "No saved articles": "\"No artículos guardados\"",
   "Recent Articles": "Artículos Recientes",
-  "Saved Articles": "Artículos Guardados",
-  "Welcome to Amal's blog": "¡Bienvenido a la blog de Amal"
+  "Saved Articles": "Artículos guardados",
+  "Settings": "Ajustes",
+  "Theme": "Tema",
+  "Welcome to Amal's blog": "\"Bienvenido al blog de Amal\"\n\nor \n\n\"Bienvenida al blog de Amal\""
 }

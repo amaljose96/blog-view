@@ -1,6 +1,5 @@
 export interface Theme {
   borderRadius: number;
-  useCircularButtons: boolean;
 
   textColor: string;
   menuBackgroundColor: string;
@@ -12,10 +11,11 @@ export interface Theme {
     backgroundColor: string;
     textColor: string;
     codeTheme: 'light' | 'dark';
-    font: 'serif' | 'sans-serif';
+    font: string;
   };
 }
 
 export interface ThemeContextProps {
   theme: Theme;
+  setThemeKey: (key: string) => void;
 }

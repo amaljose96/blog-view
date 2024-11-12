@@ -1,8 +1,12 @@
 {
-  "Amal's Blog": "Amalov Blog",
-  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "Ovdje ćete naći kolekciju članaka u kojem dijelim mi misli, ideje i iskustva. To je miješavina tehnoloških pozornica, životnih refleksija i svega između. Pogledajте oko – nadam se da nađete nešto što vam odgovara!",
-  "No saved articles": "\"Nema sakupljenih članaka\"\n\n (Serbian translation with native script)",
-  "Recent Articles": "\"Nedavne članke\"",
-  "Saved Articles": "Baza sačuvanih članaka",
-  "Welcome to Amal's blog": "Vitežno do Amalove bloga"
+  "Amal's Blog": "Амалин Блог",
+  "Current Language": "Тренутна jezika",
+  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "О овом mestuću nalaziš se kolekcija članaka gdje me dijeljim svoje mišljenje, ideje i iskustva. To je smišljena kombinacija tehničkih razgovora, životnih refleksija i sve u sredini. Pogledaj oko sebe – nadam se da ćeš nađati nešto što te bude zahvaliti!\"",
+  "Home": "Dom",
+  "No saved articles": "\"Nema sakupljenih članaka\"\n\nor \n\n\"Članak nije sakupljen\"\n\n(Note: The first option is more common, but both are acceptable)",
+  "Recent Articles": "Savremeni članovi",
+  "Saved Articles": "Саражене članke",
+  "Settings": "Postavke",
+  "Theme": "Тема",
+  "Welcome to Amal's blog": "Зајамо вам добар дан, на остварajući вас u svetu bloga Amala."
 }

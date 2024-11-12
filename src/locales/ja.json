@@ -1,8 +1,12 @@
 {
   "Amal's Blog": "アマルのブログ",
-  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "\"ここで、自分の考え、アイデア、そして経験を共有するための記事の集まりを見つけることができます。テクノロジーの洞察とライフリフレクションが交じった内容を紹介します。around - aroundは「回転する」の意味です。英語では「around」はより自然に表現されます。\n\n日本語版\n\nここで、自分の考えやアイデアや経験やその中間のものがまとめられた記事を見つけることができます。テクノロジーに関する洞察とライフリフレクションが交じった内容を紹介します。",
-  "No saved articles": "\"savedāto nai kōsho\"",
-  "Recent Articles": "\"\"",
-  "Saved Articles": "保存した記事",
-  "Welcome to Amal's blog": "～アマルのブログへの Welcome ～\n\n“アマル”をはじめ、～のあとにスペースがある場合は、スペースも含めて書く。\n\nAlternatively:～のあとにスペースがない場合は、～のあとにスペースをなくして書く。"
+  "Current Language": "現在の言語",
+  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "このページには私の考え、アイデア、経験を共有する記事のコレクションがあります。テクノロジーインサイトやライフリフレクション、全てが含まれています。見なされれば何かがあなたに共感できるようであればどうでしょう？",
+  "Home": ",",
+  "No saved articles": "\" saved articles\"",
+  "Recent Articles": "「 recent articles 」",
+  "Saved Articles": " saved articles",
+  "Settings": "設定",
+  "Theme": ",",
+  "Welcome to Amal's blog": "こんにちは、アマルのブログにご会いください。"
 }

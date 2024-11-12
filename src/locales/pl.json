@@ -1,8 +1,12 @@
 {
-  "Amal's Blog": "Pamięć Amala",
-  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "Oto tutaj znajdziesz zbiór artykułów, w których udzielę swoich myśli, pomysłów i doświadczeń. To jest połączenie zainteższeń technicznych, refleksji życiowych oraz wszystkiego między nimi. Zobacz naokoło - nadzieję, że znaleźłeś coś, co ci się podoba!",
-  "No saved articles": "Nie zapamiętanych artykułów.",
-  "Recent Articles": "Ostatnie Artykuły",
+  "Amal's Blog": "Amala Blog",
+  "Current Language": "Język obecnego",
+  "Here, you’ll find a collection of articles where I share my thoughts, ideas, and experiences. It’s a blend of tech insights, lifereflections, and everything in between. Take a look around—I hope you find something that resonates with you!": "\"Tutaj znajdziesz kolekcję artykułów, w których dzielę się moimi myślami, ideami i doświadczeniami. To zrównoważony mix technologicznych wiadomości, refleksji życiowych i całej reszygi.\"",
+  "Home": "Dom",
+  "No saved articles": "\"Niespełniony zapis\"\n\n or (in more formal version)\n \"Brak zapisań utworzonych\"\n\nor \n\n\"Niestety nie ma zapisanych artykułów\"",
+  "Recent Articles": "Artykuły ostatnie",
   "Saved Articles": "Artykuły zapisane",
-  "Welcome to Amal's blog": "Witaj w blogu Amala"
+  "Settings": "Ustawienia",
+  "Theme": "Temat",
+  "Welcome to Amal's blog": "Witamy na blogu Amala."
 }
